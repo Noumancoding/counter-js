@@ -3,6 +3,7 @@ body {
   background-color: #f4f4f4;
   text-align: center;
   padding: 50px;
+  margin: 0;
 }
 
 .count-container {
@@ -11,6 +12,7 @@ body {
   border-radius: 12px;
   box-shadow: 0 4px 10px rgb(0,0,0,0.1);
   display: inline-block;
+  max-width: 300px;
 }
 
 #count {
