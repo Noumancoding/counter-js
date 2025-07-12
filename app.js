@@ -4,3 +4,8 @@ const countdisplay = document.getElementById('count');
 const increaseBtn = document.getElementById('increase');
 const decreaseBtn = document.getElementById('decrease');
 const restBtn = document.getElementById('rest');
+
+increaseBtn.addEventListener('click', () => {
+  count++;
+  countdisplay.textContent = count;
+});
