@@ -1,21 +1,22 @@
 // Counter logic will be implemented here
 let count = 0;
-const countdisplay = document.getElementById('count');
+const countDisplay = document.getElementById('count');
 const increaseBtn = document.getElementById('increase');
 const decreaseBtn = document.getElementById('decrease');
-const restBtn = document.getElementById('rest');
+const resetBtn = document.getElementById('reset');
 
 increaseBtn.addEventListener('click', () => {
   count++;
-  countdisplay.textContent = count;
+  countDisplay.textContent = count;
 });
 
 decreaseBtn.addEventListener('click', () => {
   count--;
-  countdisplay.textContent = count;
+  countDisplay.textContent = count;
 });
 
-restBtn.addEventListener('click', () => {
+resetBtn.addEventListener('click', () => {
   count = 0;
-  countdisplay.textContent = count;
+  countDisplay.textContent = count;
 });
+
