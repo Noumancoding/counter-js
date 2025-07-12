@@ -12,10 +12,10 @@ increaseBtn.addEventListener('click', () => {
 
 decreaseBtn.addEventListener('click', () => {
   count--;
-  countDisplay.textContent = count;
+  countdisplay.textContent = count;
 });
 
-resetBtn.addEventListener('click', () => {
+restBtn.addEventListener('click', () => {
   count = 0;
-  countDisplay.textContent = count;
+  countdisplay.textContent = count;
 });
